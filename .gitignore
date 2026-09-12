@@ -1,0 +1,35 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Playwright / MCP artifacts
+.playwright-mcp/
+
+# Generated report output
+*.xlsx
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
